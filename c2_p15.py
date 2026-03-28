@@ -1,4 +1,5 @@
 import turtle as t
+
 """
 t.forward(100) # move turtle forward
 t.penup() # lifts pen up, stops drawing
@@ -48,9 +49,14 @@ t.forward(100)
 t.left(90)
 t.forward(200)
 
+
+def myfunction():
+    print("hello")
+
+
+myfunction()
+
 print(t.heading())
-
-
 
 
 input()

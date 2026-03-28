@@ -16,7 +16,6 @@ specified number of years
 
 """
 
-
 """
 
 print(5*5) # multiplication
@@ -32,4 +31,6 @@ r = float(input("What is your annual interest rate? (Enter as decimal)"))
 n = float(input("How many times a year does the interest compound?"))
 t = float(input("How many years are you holding the interest?"))
 
-print(f"${p*(1 + r/n)**(t*n):,.2f}")
+print(f"${p * (1 + r / n) ** (t * n):,.2f}")
+
+print("Hello World")
